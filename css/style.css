@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+table {
+  margin: 0 auto;
+  width: 400px;
+  border: none;
+}
+
+
+.tile {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 12%;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.face-down {
+  background-color: blue;
+}
